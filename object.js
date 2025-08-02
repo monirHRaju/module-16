@@ -19,6 +19,8 @@ const person = {
     'fav places': ["Paris", "New York", "Tokyo"],
     'fav color': "blue",   
 }
+person.height = 180; // adding a new property
+console.log(person); 
 
 // person.address.touristSpots[1] = 'Watch Tower' // accessing the object
 // console.log(person.address.touristSpots[1]);
